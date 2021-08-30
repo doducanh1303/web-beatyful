@@ -1,0 +1,45 @@
+@import '~antd/dist/antd.css';
+:root {
+  --blue: #034d72;
+  --white: #ffffff;
+  --topbar-bg: #04689a;
+  --topbar-bg-dark: #314c79;
+  --main-color: #ff6609;
+}
+
+body {
+  font-size: 100%;
+  overflow-x: hidden;
+}
+
+.app-content {
+  overflow-x: hidden;
+  padding: 15px;
+}
+
+.wraper {
+  max-width: 1170px;
+  margin: auto;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .wraper {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .wraper {
+    max-width: 100%;
+  }
+}
+
+/*tablet*/
+
+@media only screen and (max-width: 768px) {
+}
+
+/*mobile*/
+
+@media only screen and (max-width: 576px) {
+}

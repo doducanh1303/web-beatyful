@@ -1,0 +1,59 @@
+.footer {
+    width: 100%;
+    background: #333333;
+    overflow: hidden;
+    height: auto;
+}
+.main-footer h3 {
+    color: white;
+}
+.main-footer {
+    color: white;
+}
+
+.contact ul li {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.contact ul {
+    padding: 0;
+}
+
+.contact ul li span:nth-child(1) {
+    margin-right: 15px;
+}
+
+
+.network ul {
+    padding: 0;
+}
+
+.network ul li {
+    list-style-type: none;
+    /* width: 30px; */
+    padding-bottom: 10px;
+}
+
+.icon-footer ul li {
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    text-align: center;
+    display: inline-block;
+    margin-left: 5px;
+}
+.main-footer {
+    color: white;
+    padding: 10px;
+}
+
+input#basic_username {
+    width: 100%;
+}
+
+.navarbar ul {
+    padding: 0;
+}
+
+.navarbar ul li {list-style-type: none;}

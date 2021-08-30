@@ -1,0 +1,132 @@
+.images-left-sell img {
+    width: 100%;
+}
+.images-right-sell img {
+    width: 26%;
+}
+.images-right-sell {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.tab-content-small-sell img {
+    width: 234px;
+    height: 265px;
+}
+.tab-content-small-sell {
+    text-align: center;
+}
+.images-left-sell img {
+    width: 100%;
+    height: 100%;
+}
+.images-left-sell {
+    height: 600px;
+    text-align: center;
+}
+.tab-content-small-sell {
+    text-align: center;
+    width: 32%;
+}
+.sell {
+    padding-top: 60px;
+    padding: 15px;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    .wraper {
+      max-width: 100%;
+    }
+    .images-right-sell {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .images-left-sell img {
+        width: 100%;
+  
+    }
+    .tab-content-small-sell {
+        text-align: center;
+        width: 32%;
+    }
+    .tab-content-small-sell img {
+       width: 100%;
+       height: 70%;
+   }
+  }
+  
+  /*tablet*/
+  @media only screen and (max-width: 992px) {
+    .images-right-sell {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .images-left-sell img {
+        width: 100%;
+      height:auto;
+    }
+    .tab-content-small-sell {
+        text-align: center;
+        width: 32%;
+    }
+    .tab-content-small-sell img {
+       width: 100%;
+       height: 70%;
+   }
+}
+  
+  @media only screen and (max-width: 768px) {
+    .images-right-sell {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    /* .images-left-sell{
+        display:none;
+     } */
+     .tab-content-small-sell {
+         text-align: center;
+         width: 32%;
+     }
+     .tab-content-small-sell img {
+        width: 100%;
+        height: 70%;
+    }
+  }
+  
+  /*mobile*/
+  
+  @media only screen and (max-width: 576px) {
+    .images-right-sell {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .images-left-sell{
+       display:none;
+    }
+    .tab-content-small-sell {
+        text-align: center;
+        width: 48%;
+    }
+    .tab-content-small-sell img {
+        width: 100%;
+       
+    }
+  }
+
+

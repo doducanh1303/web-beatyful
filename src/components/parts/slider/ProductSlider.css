@@ -1,0 +1,60 @@
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+.productslider-content img {
+    width: 97%;
+}
+.productslider-content {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.is-divider {
+    height: 3px;
+    display: block;
+    background-color: rgba(0,0,0,0.1);
+    margin: 1em 0 1em;
+    width: 100%;
+    max-width: 30px;
+}
+.slider-content-product {
+    text-align: left;
+    font-size: 85%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .wraper {
+      max-width: 100%;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    .wraper {
+      max-width: 100%;
+    }
+    .productslider{
+        padding: 17px;
+    }
+  }
+  
+  /*tablet*/
+  
+  @media only screen and (max-width: 768px) {
+    .productslider{
+        padding: 10px;
+    }
+    .productslider-content img {
+        width: 97%;
+    }
+  }
+  
+  /*mobile*/
+  
+  @media only screen and (max-width: 576px) {
+    .productslider-content img {
+        width: 100%;
+    }
+   .productslider{
+       padding: 17px;
+   }
+  }
+  

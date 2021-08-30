@@ -1,0 +1,319 @@
+h1.a:before {
+    position: absolute!important;
+    content: ""!important;
+    border-width: 1px 0 0 0!important;
+    border: solid;
+    width: 120px;
+    left: 50%;
+    margin-left: -60px;
+    top: 90px;
+    height: 1px;
+    border-color: #ff6c8d;
+}
+.wraper2{
+    width: 1350px;
+    margin: auto;
+}
+.tab-content-small img {
+    width: 92%;
+}
+h1.a:after {
+    position: absolute!important;
+    content: ""!important;
+    border-width: 1px 0 0 0!important;
+    border: solid;
+    width: 50px;
+    left: 50%;
+    margin-left: -25px;
+    top: 100px;
+    height: 1px;
+    border-color: #ff6c8d;
+}
+.productlist {
+    width: 100%;
+    background: #464646;
+    margin-top: 70px;
+    height: auto;
+}
+.product-text {
+    width: 1350px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+.tab-product {
+    margin-top: 63px;
+    background: white;
+    height: auto;
+}
+.ant-tabs-tab + .ant-tabs-tab {
+    margin: 0 0 0 80px;
+}
+.tab-content {
+    display: flex;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 20px 50px;
+}
+
+.tab-content-small {
+    width: 25%;
+    text-align: center;
+}
+.ant-tabs-top > .ant-tabs-nav::before, .ant-tabs-bottom > .ant-tabs-nav::before, .ant-tabs-top > div > .ant-tabs-nav::before, .ant-tabs-bottom > div > .ant-tabs-nav::before {
+    position: absolute;
+    right: 0;
+    left: 0;
+    border-bottom: none;
+    content: '';
+}
+.ant-tabs-tab {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 0;
+    font-size: 18px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: #444;
+}
+.product-text h3 {
+    color: white;
+    font-style: italic;
+    font-family: 'FontAwesome';
+}
+.product-text h1 {
+    color: white;
+}
+.product-title{
+    color: black;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #484848;
+    text-shadow: 0 0 0.25px currentColor;
+}
+.img-hover-zoom {
+/* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.5);
+  }
+@media only screen and (max-width: 1200px) {
+    .productlist {
+        width: 100%;
+        background: #464646;
+        margin-top: 70px;
+        height: auto;
+        padding: 0;
+    }
+    .product-text {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        color: white;
+    }
+    .product-text h1.a {
+        font-size: 25px;
+    }
+    .tab-content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .tab-content-small {
+        width: 25%;
+        text-align: center;
+    }
+    .wraper2{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .wraper {
+      max-width: 100%;
+    }
+    .productlist {
+        width: 100%;
+        background: #464646;
+        margin-top: 70px;
+        height: auto;
+        padding: 0;
+    }
+    .product-text {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        color: white;
+    }
+    .product-text h1.a {
+        font-size: 25px;
+    }
+    .tab-content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .tab-content-small {
+        width: 33%;
+        text-align: center;
+    }
+    .tab-content-small img {
+        width: 90%;
+    }
+    .wraper2{
+        width: 100%;
+        margin: auto;
+    }
+  }
+  
+  
+
+  /*tablet*/
+  
+  @media only screen and (max-width: 768px) {
+    .productlist {
+        width: 100%;
+        background: #464646;
+        margin-top: 70px;
+        height: auto;
+        padding: 0;
+    }
+    .product-text {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        color: white;
+    }
+    .product-text h1.a {
+        font-size: 25px;
+    }
+    .tab-content {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .tab-content-small {
+        width: 33%;
+        text-align: center;
+    }
+    .tab-content-small img {
+        width: 90%;
+    }
+    .wraper2{
+        width: 100%;
+        margin: auto;
+    }
+  }
+  
+  /*mobile*/
+  
+  @media only screen and (max-width: 480px) {
+    .wraper2{
+        width: 100%;
+        margin: auto;
+    }
+    .productlist {
+        width: 100%;
+        background: #464646;
+        margin-top: 70px;
+        height: auto;
+        padding: 0;
+    }
+    .product-text {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        color: white;
+    }
+    .product-text h1.a {
+        font-size: 25px;
+    }
+   .product-text h1.a:before {
+        position: absolute!important;
+        content: ""!important;
+        border-width: 1px 0 0 0!important;
+        border: solid;
+        width: 120px;
+        left: 50%;
+        margin-left: -60px;
+        top: 90px;
+        height: 1px;
+        border-color: #ff6c8d;
+    }
+   .product-text h1.a:after {
+        position: absolute!important;
+        content: ""!important;
+        border-width: 1px 0 0 0!important;
+        border: solid;
+        width: 50px;
+        left: 50%;
+        margin-left: -25px;
+        top: 105px;
+        height: 1px;
+        border-color: #ff6c8d;
+    }
+    .tab-content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .tab-content-small {
+        width: 50%;
+        text-align: center;
+    }
+    .tab-content-small img {
+        width: 90%;
+    }
+    .tab-content-small h3.product-title {
+        font-size: 14px;
+    }
+    .ant-tabs-tab {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        padding:0;
+        font-size: 11px;
+        background: transparent;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        font-weight: bold;
+        color: #444;
+    }
+
+    .img-hover-zoom {
+        /* [1.1] Set it as per your need */
+        overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+      }
+      
+      /* [2] Transition property for smooth transformation of images */
+      .img-hover-zoom img {
+        transition: transform .5s ease;
+      }
+      
+      /* [3] Finally, transforming the image when container gets hovered */
+      .img-hover-zoom:hover img {
+        transform: scale(1.1);
+      }
+    
+  }

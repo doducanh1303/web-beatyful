@@ -1,0 +1,154 @@
+.img-categori-top {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 28px;
+}
+
+.img-categori-top img {
+    width: 273px;
+}
+.categori{
+    margin-top: 70px;
+}
+.img-hover-zoom--brightness img {
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(100%);
+  }
+  
+  /* The Transformation */
+  .img-hover-zoom--brightness:hover img {
+    filter: brightness(130%);
+    transform: scale(1.3);
+  }
+  .img-hover-zoom {/* Modify this according to your need */
+    overflow: hidden; 
+    width: 100%;/* Removing this will break the effects */
+  }
+  .img-categori-bottom img{
+    width: 97%;
+}
+@media only screen and (max-width: 1200px) {
+    .categori {
+        width: 100%;
+     }
+     .img-categori-top{
+         display:flex;
+         justify-content: space-between;
+     }
+     .categori {
+         padding: 10px;
+     }
+     .img-categori img {
+         width: 48%;
+       
+     }
+     .img-categori-left img {
+         width: 100%;
+     }
+     .img-categori {
+         margin-bottom: 20px;
+     }
+     .img-categori-bottom img{
+         width: 97%;
+     }
+     
+}
+
+@media only screen and (max-width: 1080px) {
+    .wraper {
+      max-width: 100%;
+    }
+    .categori {
+       width: 100%;
+    }
+    .img-categori-top{
+        display:flex;
+        justify-content: space-between;
+    }
+    .categori {
+        padding: 10px;
+    }
+    .img-categori img {
+        width: 48%;
+      
+    }
+    .img-categori-left img {
+        width: 100%;
+    }
+    .img-categori {
+        margin-bottom: 20px;
+    }
+    .img-categori-bottom img{
+        width: 97%;
+    }
+  }
+  
+  /*tablet*/
+ 
+ 
+  @media only screen and (max-width: 768px) {
+    .wraper {
+      max-width: 100%;
+    }
+    .categori {
+        padding: 10px;
+    }
+    .img-categori img {
+        width: 100%;
+        height: auto;
+    }
+    .img-categori-left img {
+        width: 100%;
+    }
+    .img-categori-top{
+        display:none;
+    }
+    .img-categori {
+        margin-bottom: 20px;
+    }
+    .categori {
+        margin-top: 0;
+    }
+  }
+  
+  /*mobile*/
+  
+  @media only screen and (max-width: 576px) {
+  
+    .img-categori-top{
+        display:none;
+    }
+    .categori {
+        padding: 10px;
+    }
+    .img-categori img {
+        width: 100%;
+        height: auto;
+    }
+    .img-categori-left img {
+        width: 100%;
+    }
+    .img-categori {
+        margin-bottom: 20px;
+    }
+    .img-hover-zoom--brightness img {
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;
+        filter: brightness(100%);
+      }
+      
+      /* The Transformation */
+      .img-hover-zoom--brightness:hover img {
+        filter: brightness(130%);
+        transform: scale(1.3);
+      }
+      .img-hover-zoom {/* Modify this according to your need */
+        overflow: hidden; /* Removing this will break the effects */
+      }
+      .categori {
+        margin-top: 0;
+    }
+  }
+  

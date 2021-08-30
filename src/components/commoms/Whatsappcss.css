@@ -1,0 +1,24 @@
+._1bpcM {
+  align-items: center;
+  align-self: flex-end;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  box-shadow: rgb(0 0 0 / 15%) 0px 3px 12px;
+  color: rgb(79, 206, 93);
+  cursor: pointer;
+  display: flex;
+  font-size: 2em;
+  height: 50px;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  outline: transparent;
+  -webkit-user-select: none;
+  user-select: none;
+  width: 50px;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  bottom: 91px;
+  position: fixed;
+}

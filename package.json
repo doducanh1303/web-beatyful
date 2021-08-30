@@ -1,0 +1,62 @@
+{
+  "name": "beatyfull-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.5.1",
+    "@rtk-incubator/rtk-query": "^0.3.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "antd": "^4.15.4",
+    "aos": "^2.3.4",
+    "axios": "^0.21.1",
+    "concurrently": "^6.2.0",
+    "firebase": "^8.6.1",
+    "lodash": "^4.17.21",
+    "nodemailer": "^6.6.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-firebaseui": "^5.0.2",
+    "react-fontawesome": "^1.7.1",
+    "react-gallery-carousel": "^0.2.1",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.2",
+    "react-slick": "^0.28.1",
+    "react-whatsapp-widget": "^1.3.0",
+    "redux": "^4.1.0",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.1.3",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "msw": "^0.29.0"
+  }
+}

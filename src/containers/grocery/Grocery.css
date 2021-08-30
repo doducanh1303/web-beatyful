@@ -1,0 +1,84 @@
+.select-grocery {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.ant-layout {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  min-height: 0;
+  background: white;
+}
+.btn-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.grocery-page {
+  margin-top: 20px;
+ 
+}
+.menugrocery-product.radius-img img {
+  border-radius: 51%;
+}
+@media only screen and (max-width: 1200px) {
+  .wraper {
+    max-width: 100%;
+  }
+  .grocery-page {
+    margin-top: 20px;
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .grocery-page {
+    width: 100%;
+
+    padding: 15px;
+  }
+}
+
+/*tablet*/
+
+@media only screen and (max-width: 768px) {
+  .select-grocery p {
+    display: none;
+  }
+  .appbreadcrum {
+    width: 100%;
+    margin: auto;
+  }
+  .fillter-mobie {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .grocery-page {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+/*mobile*/
+
+@media only screen and (max-width: 576px) {
+  .select-grocery p {
+    display: none;
+  }
+  .appbreadcrum {
+    width: 100%;
+    margin: auto;
+  }
+  .fillter-mobie {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+  .grocery-page {
+    width: 100%;
+    padding: 15px;
+  }
+}

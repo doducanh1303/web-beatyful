@@ -1,0 +1,11 @@
+.ship-small.ship-color {
+    /* color: black; */
+    background: #464646;
+}
+
+.ship-small {
+    background: #393939;
+    display: flex;
+    color: white;
+    padding: 30px;
+}
